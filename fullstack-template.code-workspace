@@ -1,0 +1,14 @@
+{
+  "folders": [
+    { "path": "client" },
+    { "path": "server" }
+  ],
+  "settings": {
+    "terminal.integrated.cwd": "${workspaceFolder}",
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/bin": true,
+      "**/obj": true
+    }
+  }
+}
