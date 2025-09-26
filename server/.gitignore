@@ -1,0 +1,32 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / Vue
+node_modules/
+dist/
+.vite/
+.env
+
+# ASP.NET / .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+*.vscode/
+
+# Logs
+*.log
+
+# Database / Migrations (optional if you want to exclude local DB files)
+*.mdf
+*.ldf
+
+# Workspace
+*.code-workspace
+
+# Migrations folder
+/Migrations/

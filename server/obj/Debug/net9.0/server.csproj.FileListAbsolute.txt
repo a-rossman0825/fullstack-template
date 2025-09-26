@@ -6,6 +6,8 @@
 /Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/server.runtimeconfig.json
 /Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/server.dll
 /Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/server.pdb
+/Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/AutoMapper.dll
+/Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/Humanizer.dll
 /Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
@@ -34,6 +36,9 @@
 /Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/Mono.TextTemplating.dll
 /Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/MySqlConnector.dll
 /Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/System.CodeDom.dll
 /Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/System.Composition.AttributedModel.dll
 /Users/hal9000/source/myStuff/fullstack-template/server/bin/Debug/net9.0/System.Composition.Convention.dll
@@ -114,6 +119,7 @@
 /Users/hal9000/source/myStuff/fullstack-template/server/obj/Debug/net9.0/server.csproj.CoreCompileInputs.cache
 /Users/hal9000/source/myStuff/fullstack-template/server/obj/Debug/net9.0/server.MvcApplicationPartsAssemblyInfo.cs
 /Users/hal9000/source/myStuff/fullstack-template/server/obj/Debug/net9.0/server.MvcApplicationPartsAssemblyInfo.cache
+/Users/hal9000/source/myStuff/fullstack-template/server/obj/Debug/net9.0/server.sourcelink.json
 /Users/hal9000/source/myStuff/fullstack-template/server/obj/Debug/net9.0/rjimswa.dswa.cache.json
 /Users/hal9000/source/myStuff/fullstack-template/server/obj/Debug/net9.0/rjsmrazor.dswa.cache.json
 /Users/hal9000/source/myStuff/fullstack-template/server/obj/Debug/net9.0/rjsmcshtml.dswa.cache.json
