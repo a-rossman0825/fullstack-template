@@ -10,7 +10,7 @@ import 'bootstrap'
 import { api } from './services/AxiosService'
 
 // Optional: router (uncomment when you add router.ts)
-// import { router } from './router'
+import { router } from './router'
 
 // Optional: register global components (uncomment when you add registerGlobalComponents.ts)
 import { registerGlobalComponents } from './utils/registerGlobalComponents.ts'
@@ -22,7 +22,7 @@ async function init() {
   await registerGlobalComponents(root)
 
   // Optional: router
-  // root.use(router)
+  root.use(router)
 
   root.mount('#app')
 }

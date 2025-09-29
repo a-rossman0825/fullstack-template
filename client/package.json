@@ -8,7 +8,7 @@
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-    "lint:fix": "eslint . --ext .ts,.tsx,.vue --fix"
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",

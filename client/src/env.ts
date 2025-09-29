@@ -1,7 +1,7 @@
 // env.ts
 export const dev = import.meta.env.MODE === 'development'
 export const baseURL = dev
-  ? import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000'
+  ? '/api' // Use proxy in development
   : import.meta.env.VITE_API_BASE_URL || 'https://your-production-url.com'
 
 // Optional flags

@@ -2,6 +2,18 @@ using FullstackTemplate.Server;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Add CORS policy for development
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowViteDevServer", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173", "http://localhost:3000", "http://127.0.0.1:5173")
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials();
+    });
+});
+
 // Add DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(AppGlobals.ConnectionString, ServerVersion.AutoDetect(AppGlobals.ConnectionString))
@@ -15,6 +27,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+// Enable CORS
+app.UseCors("AllowViteDevServer");
 
 // Enable Swagger UI in development
 if (app.Environment.IsDevelopment())
