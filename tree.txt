@@ -1,0 +1,60 @@
+.
+├── client
+│   ├── env.d.ts
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   ├── README.md
+│   ├── src
+│   │   ├── App.vue
+│   │   ├── AppState.ts
+│   │   ├── assets
+│   │   ├── components
+│   │   ├── env.ts
+│   │   ├── main.ts
+│   │   ├── models
+│   │   ├── pages
+│   │   ├── router
+│   │   ├── services
+│   │   └── utils
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   ├── tsconfig.node.json
+│   └── vite.config.ts
+├── fullstack-template.code-workspace
+├── server
+│   ├── AppDbContext.cs
+│   ├── appsettings.Development.json
+│   ├── appsettings.json
+│   ├── bin
+│   │   └── Debug
+│   ├── Controllers
+│   │   └── ExampleController.cs
+│   ├── Globals.cs
+│   ├── migrate.sh
+│   ├── Migrations
+│   │   ├── 20250926000908_AutoMigration_20250925180906.cs
+│   │   ├── 20250926000908_AutoMigration_20250925180906.Designer.cs
+│   │   └── AppDbContextModelSnapshot.cs
+│   ├── Models
+│   │   └── Example.cs
+│   ├── obj
+│   │   ├── Debug
+│   │   ├── project.assets.json
+│   │   ├── project.nuget.cache
+│   │   ├── server.csproj.EntityFrameworkCore.targets
+│   │   ├── server.csproj.nuget.dgspec.json
+│   │   ├── server.csproj.nuget.g.props
+│   │   └── server.csproj.nuget.g.targets
+│   ├── Program.cs
+│   ├── Properties
+│   │   └── launchSettings.json
+│   ├── README.md
+│   ├── Repositories
+│   ├── server.csproj
+│   └── Services
+└── tree.txt
+
+22 directories, 36 files
