@@ -8,7 +8,7 @@ dist/
 .vite/
 .env
 
-# ASP.NET / .NET
+# ASP.NET / .NET Build Artifacts
 bin/
 obj/
 *.user
@@ -17,6 +17,24 @@ obj/
 *.sln.docstates
 *.vs/
 *.vscode/
+
+# .NET Core Build Files
+*.dll
+*.pdb
+*.exe
+*.deps.json
+*.runtimeconfig.json
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.cache
+*.assets.cache
+*.cache
+*.GeneratedMSBuildEditorConfig.editorconfig
+
+# Razor and MVC Cache Files
+*.dswa.cache.json
+
+# JetBrains Rider
+.idea/
 
 # Logs
 *.log
