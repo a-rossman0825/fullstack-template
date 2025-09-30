@@ -26,7 +26,7 @@ src/
 ├── router/          # Vue Router configuration
 ├── services/        # API and external service integrations
 ├── utils/           # Helper functions and utilities
-├── models/          # TypeScript interfaces and types
+├── types/           # TypeScript interfaces and type definitions
 ├── App.vue          # Root component
 └── main.ts          # Application entry point
 ```

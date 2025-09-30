@@ -44,9 +44,9 @@ server/
 2. **Setup MySQL Database:**
 
    ```sql
-   CREATE DATABASE fullstack_template;
+   CREATE DATABASE your_database_name;
    CREATE USER 'your_user'@'localhost' IDENTIFIED BY 'your_password';
-   GRANT ALL PRIVILEGES ON fullstack_template.* TO 'your_user'@'localhost';
+   GRANT ALL PRIVILEGES ON your_database_name.* TO 'your_user'@'localhost';
    FLUSH PRIVILEGES;
    ```
 

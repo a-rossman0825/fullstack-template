@@ -16,7 +16,7 @@
         <div class="row">
           <div class="col-md-6 mb-4">
             <div class="card shadow-sm h-100">
-              <div class="card-header bg-primary text-light">
+              <div class="card-header bg-warning text-dark">
                 <h5 class="card-title mb-0">
                   <i class="mdi mdi-monitor me-2"></i>Frontend Technologies
                 </h5>

@@ -13,9 +13,9 @@ A modern, developer-friendly fullstack template combining Vue.js 3 with TypeScri
 ### 1. Clone and Setup
 
 ```bash
-# Clone the repository
-git clone <your-repo-url>
-cd fullstack-template
+# Clone the template repository with your desired project name
+git clone https://github.com/a-rossman0825/fullstack-template.git my-awesome-project
+cd my-awesome-project
 
 # Setup backend
 cd server

@@ -1,16 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 import { api } from "../services/AxiosService";
-
-interface Example {
-  id: number;
-  name: string;
-  createdAt: string;
-}
-
-interface ApiResponse {
-  message: string;
-}
+import type { Example, ApiResponse } from "../types";
 
 const examples = ref<Example[]>([]);
 const loading = ref<boolean>(false);

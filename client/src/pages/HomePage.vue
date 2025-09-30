@@ -1,10 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { api } from "../services/AxiosService";
-
-interface ApiResponse {
-  message: string;
-}
+import type { ApiResponse } from "../types";
 
 const message = ref<string>("");
 const loading = ref<boolean>(false);
