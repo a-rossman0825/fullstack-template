@@ -71,7 +71,7 @@ const handleSubmit = async () => {
                 {{ error }}
               </div>
 
-              <button type="submit" :disabled="loading" class="btn btn-primary w-100 mb-3">
+              <button type="submit" :disabled="loading" class="btn btn-success w-100 mb-3">
                 <span v-if="loading" class="spinner-border spinner-border-sm me-2"></span>
                 {{ loading ? "Signing in..." : "Sign In" }}
               </button>
@@ -92,8 +92,8 @@ const handleSubmit = async () => {
           </div>
         </div>
 
-        <div class="mt-4 text-center">
-          <small class="text-muted">
+        <div class="mt-4 text-center mb-3">
+          <small class="text-light">
             This is a demo login form. In a real application, you would integrate
             with your authentication system.
           </small>

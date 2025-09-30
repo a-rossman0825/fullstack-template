@@ -7,8 +7,8 @@
     <div class="row justify-content-center">
       <div class="col-lg-8">
         <div class="text-center mb-5">
-          <h1 class="display-4 fw-bold text-primary">About This Template</h1>
-          <p class="lead text-muted">
+          <h1 class="display-4 fw-bold text-light">About This Template</h1>
+          <p class="lead text-light">
             Learn more about the technologies and architecture used in this fullstack template
           </p>
         </div>
@@ -16,7 +16,7 @@
         <div class="row">
           <div class="col-md-6 mb-4">
             <div class="card shadow-sm h-100">
-              <div class="card-header bg-primary text-white">
+              <div class="card-header bg-primary text-light">
                 <h5 class="card-title mb-0">
                   <i class="mdi mdi-monitor me-2"></i>Frontend Technologies
                 </h5>
@@ -28,7 +28,7 @@
                     <strong>Vue.js 3:</strong> Progressive JavaScript framework
                   </li>
                   <li class="mb-2">
-                    <i class="mdi mdi-language-typescript text-primary me-2"></i>
+                    <i class="mdi mdi-language-typescript text-secondary me-2"></i>
                     <strong>TypeScript:</strong> Static type checking
                   </li>
                   <li class="mb-2">
@@ -50,7 +50,7 @@
 
           <div class="col-md-6 mb-4">
             <div class="card shadow-sm h-100">
-              <div class="card-header bg-success text-white">
+              <div class="card-header bg-success text-light">
                 <h5 class="card-title mb-0">
                   <i class="mdi mdi-server me-2"></i>Backend Technologies
                 </h5>
@@ -62,7 +62,7 @@
                     <strong>C# .NET 9:</strong> Modern web API framework
                   </li>
                   <li class="mb-2">
-                    <i class="mdi mdi-database text-primary me-2"></i>
+                    <i class="mdi mdi-database text-success me-2"></i>
                     <strong>Entity Framework Core:</strong> ORM for data access
                   </li>
                   <li class="mb-2">
@@ -83,7 +83,7 @@
           </div>
         </div>
 
-        <div class="card shadow-sm mt-4">
+        <div class="card shadow-sm mb-4">
           <div class="card-body">
             <h3 class="card-title h4">Architecture Overview</h3>
             <p class="card-text">

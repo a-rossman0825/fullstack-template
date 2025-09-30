@@ -73,7 +73,7 @@ const fetchExample = async () => {
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
+          <div class="col-md-4 mb-4">
             <div class="card h-100 bg-light">
               <div class="card-body">
                 <h5 class="card-title">
