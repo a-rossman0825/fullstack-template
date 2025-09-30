@@ -29,12 +29,6 @@ import { RouterLink } from "vue-router";
             </RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/examples" class="nav-link" active-class="active">
-              <i class="mdi mdi-code-tags me-1"></i>
-              Examples
-            </RouterLink>
-          </li>
-          <li class="nav-item">
             <RouterLink to="/about" class="nav-link" active-class="active">
               <i class="mdi mdi-information me-1"></i>
               About
