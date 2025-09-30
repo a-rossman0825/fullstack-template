@@ -73,10 +73,6 @@
                     <i class="mdi mdi-api text-orange me-2"></i>
                     <strong>Swagger:</strong> API documentation
                   </li>
-                  <li class="mb-2">
-                    <i class="mdi mdi-auto-fix text-secondary me-2"></i>
-                    <strong>AutoMapper:</strong> Object mapping
-                  </li>
                 </ul>
               </div>
             </div>

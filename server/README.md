@@ -8,7 +8,6 @@ A modern C# .NET 9 Web API with Entity Framework Core, MySQL, and Swagger docume
 - **Entity Framework Core 9** - Object-relational mapping (ORM)
 - **MySQL** - Relational database with Pomelo provider
 - **Swagger/OpenAPI** - API documentation and testing
-- **AutoMapper** - Object-to-object mapping
 - **Global Usings** - Simplified namespace management
 
 ## 📁 Project Structure

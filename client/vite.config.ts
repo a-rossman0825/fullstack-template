@@ -33,7 +33,7 @@ export default defineConfig({
         manualChunks: {
           vendor: ['vue', 'vue-router', 'pinia'],
           ui: ['bootstrap'],
-          utils: ['axios', 'dayjs']
+          utils: ['axios']
         }
       }
     }
