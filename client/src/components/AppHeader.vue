@@ -8,11 +8,11 @@ import { RouterLink } from "vue-router";
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-secondary shadow-sm">
     <div class="container">
-      <RouterLink to="/" class="navbar-brand fw-bold">
-        <i class="mdi mdi-cube-outline me-2"></i>
-        Fullstack Template
+      <RouterLink to="/" class="navbar-brand fw-bold text-light">
+        <i class="mdi mdi-alpha me-2"></i>
+        AJ's Fullstack Template
       </RouterLink>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

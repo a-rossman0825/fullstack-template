@@ -15,12 +15,14 @@ import AppFooter from "./components/AppFooter.vue";
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+
+
 #app {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
-  background-color: #f8f9fa;
+  background-color: var(--bs-dark-template);
 }
 </style>

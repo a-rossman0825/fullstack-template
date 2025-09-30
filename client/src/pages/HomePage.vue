@@ -28,19 +28,19 @@ const fetchExample = async () => {
     <div class="row justify-content-center">
       <div class="col-lg-8">
         <div class="text-center mb-5">
-          <h1 class="display-4 fw-bold text-primary">Welcome to Your Fullstack Template</h1>
-          <p class="lead text-muted">
+          <h1 class="display-4 fw-bold text-light">Welcome to Your Fullstack Template</h1>
+          <p class="lead text-light fw-light">
             A modern Vue.js + TypeScript frontend with C# + EF Core backend
           </p>
         </div>
 
-        <div class="card shadow-sm">
+        <div class="card shadow-sm bg-light">
           <div class="card-body">
             <h2 class="card-title h4">API Connection Test</h2>
             <p class="card-text">
               Test the connection between your Vue.js frontend and C# backend:
             </p>
-            <button @click="fetchExample" :disabled="loading" class="btn btn-primary me-3">
+            <button @click="fetchExample" :disabled="loading" class="btn btn-success me-3">
               <span v-if="loading" class="spinner-border spinner-border-sm me-2"></span>
               {{ loading ? "Loading..." : "Test API" }}
             </button>
@@ -54,7 +54,7 @@ const fetchExample = async () => {
 
         <div class="row mt-4">
           <div class="col-md-4 mb-3">
-            <div class="card h-100">
+            <div class="card h-100 bg-light">
               <div class="card-body">
                 <h5 class="card-title">
                   <i class="mdi mdi-vuejs text-success me-2"></i>Vue.js 3
@@ -64,17 +64,17 @@ const fetchExample = async () => {
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card h-100">
+            <div class="card h-100 bg-light">
               <div class="card-body">
                 <h5 class="card-title">
-                  <i class="mdi mdi-language-typescript text-primary me-2"></i>TypeScript
+                  <i class="mdi mdi-language-typescript text-warning me-2"></i>TypeScript
                 </h5>
                 <p class="card-text">Type-safe development with excellent IDE support</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card h-100">
+            <div class="card h-100 bg-light">
               <div class="card-body">
                 <h5 class="card-title">
                   <i class="mdi mdi-microsoft text-info me-2"></i>C# + EF Core
