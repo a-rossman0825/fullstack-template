@@ -8,9 +8,6 @@
       <div class="col-lg-8">
         <div class="text-center mb-5">
           <h1 class="display-4 fw-bold text-light">About This Template</h1>
-          <p class="lead text-light">
-            Learn more about the technologies and architecture used in this fullstack template
-          </p>
         </div>
 
         <div class="row">
